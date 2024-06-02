@@ -12,16 +12,21 @@ Millions of people worldwide suffer from mental health issues but lack access to
 
 We developed Steady Support, a chatbot designed to provide users with fast and effective responses to their mental health queries. The bot has been trained on an extensive dataset of frequently asked questions and answers, ensuring it can offer accurate and empathetic support on a wide range of mental health topics.
 
-### 1.	Dataset:
+#### 1.	Dataset:
    - The dataset was obtained from Kaggle. There are two main columns. One for questions and another for answers.
-   - B.	The size of the dataset is 23kb and was initially in CSV format. 
+   - The size of the dataset is 23kb and was initially in CSV format. 
 
-### 2.	Cleaning steps:
+#### 2.	Cleaning steps:
   - We cleaned the CSV file and removed unwanted and special characters and so on.
   - Renamed the columns for preprocessing of data.
   - We wrote a Python script to convert CSV to JSON format according to Google AI vertex data guidelines. The script name is test.py
-### 3.	Then after the output of data in JSON format, we uploaded it to the import examples feature of Google Vertex AI.
-### 4.	We created a context example of how the bot should function and react to the user’s input and should provide the answer to the prompt.
+#### 3.	Then after the output of data in JSON format, we uploaded it to the import examples feature of Google Vertex AI.
+#### 4.	We created a context example of how the bot should function and react to the user’s input and should provide the answer to the prompt.
+
+## Files:
+1. The file "mh_questions.csv" contains the original CSV data that has been cleaned and is now ready for processing.
+2. The "Test.py" is a Python script that converts the input CSV file to a JSON file.
+3. The "output.json" is the final JSON file output. 
 
 ## Screenshots
 
