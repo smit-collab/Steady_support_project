@@ -1,7 +1,6 @@
 # Steady Support
 The Steady Support Bot serves as a digital companion for mental well-being, offering guidance, resources, and coping strategies to help users manage stress and improve their mental health.
 
-Project members: Smit Topiwala, Kashish Topiwala
 The Steady Support Bot serves as a digital companion for mental well-being, offering guidance, resources, and coping strategies to help users manage stress and improve their mental health.
 
 ## Problem
